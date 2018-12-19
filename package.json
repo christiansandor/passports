@@ -1,0 +1,27 @@
+{
+  "name": "@cs/passports",
+  "version": "1.0.0",
+  "main": "dist/passports.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "types": [
+    "dist/passports.interface.d.ts",
+    "dist/passports.d.ts"
+  ],
+  "dependencies": {
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^0.0.31",
+    "@types/express": "^4.16.0",
+    "@types/express-session": "^1.15.11",
+    "@types/node": "^10.12.0",
+    "@types/passport": "^0.4.6",
+    "typescript": "^3.1.3"
+  }
+}
